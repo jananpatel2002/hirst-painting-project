@@ -21,7 +21,6 @@ x_coordinate = timmy.xcor()
 timmy.speed(0)
 timmy.hideturtle()
 for _ in range(10):
-    print(timmy.pos())
     for _ in range(10):
         color = (random.choice(rgb_colors))
         timmy.fillcolor(color)
